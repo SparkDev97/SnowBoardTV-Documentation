@@ -139,6 +139,11 @@ It is possible to set a stack of images to be applied to 'non-themed' icons, tha
 This is most useful to replace the backgrounds of all 'parallax' stock icons.
 This is done in the same way as setting an app icon, however instead of a bundle identifier you use 'UnthemedApps'. So for example: 'UnthemedApps_AppIconLayer0@2x.png'.
 
+Example Unthemed Icon:
+![Example Unthemed Icon](https://i.imgur.com/uJhJsiD.png)
+Example Applied Unthemed Icon:
+![Example Applied Unthemed Icon](https://i.imgur.com/2ZGOzS0.png)
+
 ## SnowBoard Theme Icon
 You can also set an icon for your theme to be displayed in the SnowBoardTV application. This is set like so:
 
@@ -149,6 +154,10 @@ DefaultIcon@1x.png
 (800px x 480px)
 DefaultIcon@2x.png
 ```
+
+Example SnowBoardTV Icon:
+![Example SnowBoardTV Icon](https://i.imgur.com/xrJYb34.png)
+
 
 ## Authors
 SparkDev 2019
