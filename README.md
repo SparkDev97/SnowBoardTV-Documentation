@@ -1,5 +1,7 @@
 # SnowBoardTV
 This is SnowBoardTV, the worlds first tvOS theming engine.
+This repository includes an "Example Theme.theme" folder, which contains an example of all of the features detailed below. Looking through this example theme will give you a much better understanding of how to put a SnowBoardTV theme together.
+This "Example Theme.theme" folder can be placed in "/Library/Themes" on your AppleTV to try it out for yourself.
 
 SnowBoardTV can be installed from: XXX
 
