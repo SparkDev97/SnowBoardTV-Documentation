@@ -141,6 +141,7 @@ This is done in the same way as setting an app icon, however instead of a bundle
 
 Example Unthemed Icon:
 ![Example Unthemed Icon](https://i.imgur.com/uJhJsiD.png)
+
 Example Applied Unthemed Icon:
 ![Example Applied Unthemed Icon](https://i.imgur.com/2ZGOzS0.png)
 
