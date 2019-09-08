@@ -1,2 +1,127 @@
-# SnowBoardTV Documentation
- SnowBoardTV Documentation
+# SnowBoardTV
+This is SnowBoardTV, the worlds first tvOS theming engine.
+
+SnowBoardTV can be installed from: XXX
+
+## Features
+SnowBoardTV includes the following features (✅ - Compelte | ⚠️ - In Development | ⛔️- Coming Soon) 
+- App Icon Theming ✅
+- App Icon Masks ✅
+- App Icon Shadow Customisation ✅
+- Glyph Theming ⛔️
+- Respring Logos ⛔️
+- Fonts ⛔️
+
+## Pre-Requirements
+```
+- A Jailbroken AppleTV
+```
+
+## App Icon Theming
+It is very simple to build a simple theme to change app icons with SnowBoardTV.
+If you are familar with theming on iOS you will have no issues here, however tvOS supports one icon feature that iOS does not - Parallax.
+Parallax allows you to have multiple layers to your icon, giving it a 3D look when in focus.
+SnowBoardTV fully supports parallax, and can be created by giving each icon multiple 'layers'.
+
+The format for App Icon theming is as follows:
+
+Theme folder:
+```
+/Library/Themes/[YOUR THEME NAME].theme/
+```
+
+In the theme folder you may include an optional "Info.plist" file. This file can control further theming options as well as identifying your theme.
+
+An example Info.plist file would look like this:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PackageName</key>
+	<string>Example Theme</string>
+</dict>
+</plist>
+```
+This will simply ensure your theme has the correct name when it is shown in the SnowBoardTV application.
+
+Once you have these base folders set up, you can start adding images for your theme. Within the ".theme" folder you can create a "/IconBundles" folder, where your icons will be stored. Each file needs to conform to the following file name format:
+
+For App Icons:
+```
+(400px x 240px)
+{Bundle Identifier}_AppIconLayer{LayerNumber}@1x.png
+
+(800px x 480px)
+{Bundle Identifier}_AppIconLayer{LayerNumber}@2x.png
+```
+The background layer starts at 0. You can then add as many layers as you with beyond this to create a parallax effect (However, only the background layer is required if you do not want a parallax effect).
+
+For Top Shelf Image:
+```
+(1920px x 720px)
+{Bundle Identifier}_TopShelf@1x.png
+
+(3840px x 1440px)
+{Bundle Identifier}_TopShelf@2x.png
+```
+
+## App Icon Shadow Settings
+Within your "Info.plist" file (Mentioned in the previous section), you can add various settings for app icon shadows.
+
+| Key        | Description           | Default  |
+| ------------- |:-------------| -----:|
+| ShadowColor      | The shadow's colour (Hex or Rgb) | #000000 |
+| ShadowHorizontalOffset      | Shadow offset X      |   0.0 |
+| ShadowVerticalOffset | Shadow offset Y      |    6.0 |
+| ShadowRadius | Shadow Radius      |    5.0 |
+| ShadowOpacity | The opacity of the shadow      |    0.2 |
+
+Example:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ShadowSettings</key>
+	<dict>
+		<key>ShadowColor</key>
+		<string>#00b7ff</string>
+		<key>ShadowHorizontalOffset</key>
+		<integer>1</integer>
+		<key>ShadowVerticalOffset</key>
+		<real>6</real>
+		<key>ShadowRadius</key>
+		<real>5</real>
+		<key>ShadowOpacity</key>
+		<real>0.4</real>
+	</dict>
+	<key>PackageName</key>
+	<string>Example Theme</string>
+</dict>
+</plist>
+```
+Example of Shadow Customisation:
+![Shadow Customisation](https://i.imgur.com/btWPWTd.png)
+
+## Icon Masking
+SnowBoardTV also supports masking application icons, this can be done with a simple mask image.
+Each file needs to conform to the following file name format:
+```
+(400px x 240px)
+AppIconMask@1x.png
+
+(800px x 480px)
+AppIconMask@2x.png
+```
+
+An Example Mask Image:
+![Example Mask Image](https://i.imgur.com/anebrje.png)
+
+Example Mask Image Applied:
+![Example Mask Image Applied](https://i.imgur.com/S7g8igw.png)
+
+
+## Authors
+SparkDev 2019
+App Icon by Dennis D. Bednarz
