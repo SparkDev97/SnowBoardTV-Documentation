@@ -51,9 +51,11 @@ For App Icons:
 ```
 (400px x 240px)
 {Bundle Identifier}_AppIconLayer{LayerNumber}@1x.png
+Example: com.apple.TVSettings_AppIconLayer0@1x.png
 
 (800px x 480px)
 {Bundle Identifier}_AppIconLayer{LayerNumber}@2x.png
+Example: com.apple.TVSettings_AppIconLayer0@2x.png
 ```
 The background layer starts at 0. You can then add as many layers as you with beyond this to create a parallax effect (However, only the background layer is required if you do not want a parallax effect).
 
@@ -65,9 +67,11 @@ For Top Shelf Image:
 ```
 (1920px x 720px)
 {Bundle Identifier}_TopShelf@1x.png
+Example: com.apple.TVSettings_TopShelf@1x.png
 
 (3840px x 1440px)
 {Bundle Identifier}_TopShelf@2x.png
+Example: com.apple.TVSettings_TopShelf@2x.png
 ```
 
 Example of an applied Top Shelf image:
