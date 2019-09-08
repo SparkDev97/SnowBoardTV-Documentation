@@ -4,7 +4,7 @@ This is SnowBoardTV, the worlds first tvOS theming engine.
 SnowBoardTV can be installed from: XXX
 
 ## Features
-SnowBoardTV includes the following features (✅ - Compelte | ⚠️ - In Development | ⛔️- Coming Soon) 
+SnowBoardTV includes the following features (✅ - Complete | ⚠️ - In Development | ⛔️- Coming Soon) 
 - App Icon Theming ✅
 - App Icon Masks ✅
 - App Icon Shadow Customisation ✅
