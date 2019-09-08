@@ -1,4 +1,4 @@
-# SnowBoardTV
+# SnowBoardTV Documentation
 
 ![SnowBoard Icon](https://i.imgur.com/du1jZL7.png)
 
