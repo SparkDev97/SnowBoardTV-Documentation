@@ -57,6 +57,10 @@ For App Icons:
 ```
 The background layer starts at 0. You can then add as many layers as you with beyond this to create a parallax effect (However, only the background layer is required if you do not want a parallax effect).
 
+Example of an applied App Icon image:
+![App Icon Image Example](https://i.imgur.com/2GpNWPA.png)
+
+
 For Top Shelf Image:
 ```
 (1920px x 720px)
@@ -65,6 +69,9 @@ For Top Shelf Image:
 (3840px x 1440px)
 {Bundle Identifier}_TopShelf@2x.png
 ```
+
+Example of an applied Top Shelf image:
+![Top Shelf Image Example](https://i.imgur.com/9uOICx8.png)
 
 ## App Icon Shadow Settings
 Within your "Info.plist" file (Mentioned in the previous section), you can add various settings for app icon shadows.
