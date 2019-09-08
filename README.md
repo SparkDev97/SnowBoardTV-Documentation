@@ -78,7 +78,7 @@ Example of an applied Top Shelf image:
 ![Top Shelf Image Example](https://i.imgur.com/9uOICx8.png)
 
 ## App Icon Shadow Settings
-Within your "Info.plist" file (Mentioned in the previous section), you can add various settings for app icon shadows.
+Within your "Info.plist" file (Mentioned in the previous section), you can add various settings for app icon shadows. These must be in a 'dict' under the "ShadowSettings" key.
 
 | Key        | Description           | Default  |
 | ------------- |:-------------| -----:|
