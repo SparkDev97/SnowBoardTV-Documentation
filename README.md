@@ -124,6 +124,8 @@ AppIconMask@1x.png
 
 (800px x 480px)
 AppIconMask@2x.png
+
+These go in /Library/Themes/[YOUR THEME NAME].theme/IconBundles/
 ```
 
 An Example Mask Image:
@@ -132,6 +134,21 @@ An Example Mask Image:
 Example Mask Image Applied:
 ![Example Mask Image Applied](https://i.imgur.com/S7g8igw.png)
 
+## Unthemed Icons
+It is possible to set a stack of images to be applied to 'non-themed' icons, that you haven't provided a custom icon for.
+This is most useful to replace the backgrounds of all 'parallax' stock icons.
+This is done in the same way as setting an app icon, however instead of a bundle identifier you use 'UnthemedApps'. So for example: 'UnthemedApps_AppIconLayer0@2x.png'.
+
+## SnowBoard Theme Icon
+You can also set an icon for your theme to be displayed in the SnowBoardTV application. This is set like so:
+
+```
+(400px x 240px)
+DefaultIcon@1x.png
+
+(800px x 480px)
+DefaultIcon@2x.png
+```
 
 ## Authors
 SparkDev 2019
