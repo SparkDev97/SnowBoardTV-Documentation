@@ -165,4 +165,8 @@ Example SnowBoardTV Icon:
 
 ## Authors
 SparkDev 2019
+
 App Icon by Dennis D. Bednarz
+
+## Support
+For further help please contact me on Twitter (https://twitter.com/SparkDev_) or join my Discord server (https://discord.gg/aYgD69T)
