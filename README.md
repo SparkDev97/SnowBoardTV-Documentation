@@ -1,4 +1,7 @@
 # SnowBoardTV
+
+![SnowBoard Icon](https://i.imgur.com/zmbkzyz.png)
+
 This is SnowBoardTV, the worlds first tvOS theming engine.
 
 This repository includes an "Example Theme.theme" folder, which contains an example of all of the features detailed below. Looking through this example theme will give you a much better understanding of how to put a SnowBoardTV theme together.
