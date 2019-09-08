@@ -9,7 +9,7 @@ SnowBoardTV includes the following features (✅ - Complete | ⚠️ - In Develo
 - App Icon Masks ✅
 - App Icon Shadow Customisation ✅
 - Glyph Theming ⛔️
-- Respring Logos ⛔️
+- Respring Logos ⚠️
 - Fonts ⛔️
 
 ## Pre-Requirements
