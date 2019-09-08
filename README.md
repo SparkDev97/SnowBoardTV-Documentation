@@ -1,6 +1,6 @@
 # SnowBoardTV
 
-![SnowBoard Icon](https://i.imgur.com/zmbkzyz.png)
+![SnowBoard Icon](https://i.imgur.com/du1jZL7.png)
 
 This is SnowBoardTV, the worlds first tvOS theming engine.
 
