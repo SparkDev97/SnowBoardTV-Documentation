@@ -1,6 +1,8 @@
-# SnowBoardTV Documentation
+# SnowBoardTV Documentation ( WORK IN PROGRESS )
 
 ![SnowBoard Icon](https://i.imgur.com/du1jZL7.png)
+
+**Please Note: This document is a work in progress.**
 
 This is SnowBoardTV, the worlds first tvOS theming engine.
 
