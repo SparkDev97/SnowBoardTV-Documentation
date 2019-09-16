@@ -20,7 +20,7 @@ SnowBoardTV includes the following features (✅ - Complete | ⚠️ - In Develo
 
 ## Pre-Requirements
 ```
-- A Jailbroken AppleTV
+- A Jailbroken AppleTV on 11.x - 12.x
 ```
 
 ## Example Theme
