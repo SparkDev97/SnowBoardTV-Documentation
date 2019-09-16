@@ -13,6 +13,7 @@ SnowBoardTV includes the following features (✅ - Complete | ⚠️ - In Develo
 - App Icon Theming ✅
 - App Icon Masks ✅
 - App Icon Shadow Customisation ✅
+- App Icon Label Customisation ✅
 - Glyph Theming ⛔️
 - Respring Logos ⚠️
 - Fonts ⛔️
@@ -155,6 +156,7 @@ Example:
 </plist>
 ```
 Example of Font Customisation:
+
 ![Font Customisation](https://i.imgur.com/risdejf.png)
 
 ## Icon Masking
