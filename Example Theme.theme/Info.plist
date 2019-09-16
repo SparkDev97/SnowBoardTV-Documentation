@@ -15,6 +15,15 @@
 		<key>ShadowOpacity</key>
 		<real>0.4</real>
 	</dict>
+	<key>LabelSettings</key>
+	<dict>
+		<key>FontName</key>
+		<string>HelveticaNeue-Thin</string>
+		<key>FontSize</key>
+		<real>31.0</real>
+		<key>HideLabels</key>
+		<false />
+	</dict>
 	<key>PackageName</key>
 	<string>Example Theme</string>
 </dict>

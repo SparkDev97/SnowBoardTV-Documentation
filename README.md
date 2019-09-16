@@ -135,6 +135,8 @@ Within your "Info.plist" file (Mentioned in the previous section), you can add v
 | FontSize      | The size of the font used for icon labels | 31.0 |
 | HideLabels	| Hide all app labels | false |
 
+Note: Here is a good resource for finding different font names https://github.com/lionhylra/iOS-UIFont-Names
+
 Example:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
