@@ -122,6 +122,39 @@ Example:
 Example of Shadow Customisation:
 ![Shadow Customisation](https://i.imgur.com/btWPWTd.png)
 
+
+## App Icon Label Settings
+Within your "Info.plist" file (Mentioned in the previous section), you can add various settings for app icon labels. These must be in a 'dict' under the "LabelSettings" key.
+
+| Key        | Description           | Default  |
+| ------------- |:-------------| -----:|
+| FontName      | The name of the font used for icon labels | .SFUIText-Medium |
+| FontSize      | The size of the font used for icon labels | 31.0 |
+| HideLabels	| Hide all app labels | false |
+
+Example:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LabelSettings</key>
+	<dict>
+		<key>FontName</key>
+		<string>.SFUIText-Medium</string>
+		<key>FontSize</key>
+		<real>31.0</real>
+		<key>HideLabels</key>
+		<false />
+	</dict>
+	<key>PackageName</key>
+	<string>Example Theme</string>
+</dict>
+</plist>
+```
+Example of Font Customisation:
+![Font Customisation](https://i.imgur.com/risdejf.png)
+
 ## Icon Masking
 SnowBoardTV also supports masking application icons, this can be done with a simple mask image.
 Each file needs to conform to the following file name format:
